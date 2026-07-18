@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20">
+  <style>
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinner { animation: spin 1.6s linear infinite; transform-origin: 25px 25px; }
+  </style>
+  <g class="spinner" fill="currentColor">
+    <circle cx="25" cy="5" r="1.0"/>
+    <circle cx="32.78" cy="6.58" r="1.18"/>
+    <circle cx="39.34" cy="11.06" r="1.36"/>
+    <circle cx="43.64" cy="17.74" r="1.55"/>
+    <circle cx="44.99" cy="25.57" r="1.73"/>
+    <circle cx="43.18" cy="33.32" r="1.91"/>
+    <circle cx="38.52" cy="39.74" r="2.09"/>
+    <circle cx="31.72" cy="43.84" r="2.27"/>
+    <circle cx="23.86" cy="44.96" r="2.45"/>
+    <circle cx="16.20" cy="42.96" r="2.64"/>
+    <circle cx="9.90" cy="38.12" r="2.82"/>
+    <circle cx="5.98" cy="31.18" r="3.0"/>
+  </g>
+</svg>
