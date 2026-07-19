@@ -15,13 +15,10 @@ export const siteConfig: SiteConfig = {
 	site_url: "http://www.303009.xyz",
 
 	// 站点描述
-	description:
-		"自娱自乐罢了",
+	description: "自娱自乐罢了",
 
 	// 站点关键词
-	keywords: [
-		"暂时没想好",
-	],
+	keywords: ["暂时没想好"],
 
 	// 主题色
 	themeColor: {
