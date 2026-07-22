@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>加载图标</title>
+    <style>
+        /* ===== 核心加载图标 ===== */
+        .loader {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+
+        .loader svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            animation: spin 1.6s linear infinite;
+            transform-origin: center center;
+        }
+
+        .loader .dot-group circle {
+            fill: currentColor;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 直接使用 -->
+    <div class="loader">
+        <svg viewBox="0 0 50 50">
+            <g class="dot-group"></g>
+        </svg>
+        <script>
+            (function() {
+                const svg = document.currentScript.parentElement.querySelector('svg');
+                const group = svg.querySelector('.dot-group');
+                const count = 12;
+                const arcDeg = 252;
+                const startDeg = -90;
+                const radius = 20;
+                const cx = 25, cy = 25;
+                const headR = 1.0, tailR = 3.0;
+                for (let i = 0; i < count; i++) {
+                    const frac = i / (count - 1);
+                    const angleDeg = startDeg + frac * arcDeg;
+                    const angleRad = angleDeg * Math.PI / 180;
+                    const x = cx + radius * Math.cos(angleRad);
+                    const y = cy + radius * Math.sin(angleRad);
+                    const r = headR - (headR - tailR) * frac;
+                    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    circle.setAttribute('cx', x);
+                    circle.setAttribute('cy', y);
+                    circle.setAttribute('r', r);
+                    group.appendChild(circle);
+                }
+            })();
+        </script>
+    </div>
+
+</body>
+</html>
