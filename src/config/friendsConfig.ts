@@ -24,8 +24,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 export const friendsConfig: FriendLink[] = [
 	{
 		title: "测试友链",
-		imgurl:
-			"/assets/images/loader.svg",
+		imgurl: "/assets/images/loader.svg",
 		desc: "测试使用,这是我自己~",
 		siteurl: "https://www.303009.xyz",
 		tags: ["Blog"],
