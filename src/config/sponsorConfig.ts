@@ -61,11 +61,11 @@ export const sponsorConfig: SponsorConfig = {
 	sponsors: [
 		// 示例：已实名打赏者
 		// {
-		// 	name: "夏叶",
+		// 	name: "狂三三三呐",
 		// 	avatar:
-		// 		"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+		// 		"https://weavatar.com/avatar/efdaff3b8ba86cd2b30bfc4d43daa457613e450b910ba13a5141bea96908665c.png?s=1080",
 		// 	amount: "¥50",
-		// 	date: "2025-10-01",
+		// 	date: "2026-07-22",
 		// },
 
 		// 示例：匿名打赏者
