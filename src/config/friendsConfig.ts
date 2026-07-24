@@ -27,7 +27,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "/assets/images/loader.svg",
 		desc: "测试使用,这是我自己~",
 		siteurl: "https://www.303009.xyz",
-		tags: ["Blog"],
+		tags: ["test"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},

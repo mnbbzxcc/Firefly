@@ -2,13 +2,13 @@
 title: 模板
 published: 2026-07-24
 update: 
-pinned: true
-description: "模板描述"
+pinned: false
+description: "这是一个模板"
 image: "./template.webp"
 tags: ["模板"]
 category: 模板
 draft: false
-comment: false
+comment: true
 slug:
 password: "123456"
 passwordHint: "模板密码123456"

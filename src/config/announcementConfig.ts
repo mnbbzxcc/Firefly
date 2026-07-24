@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "公告",
 
 	// 公告内容
-	content: "原来这样啊",
+	content: "随便逛逛吧，目前还在完善中，欢迎留言提建议！",
 
 	// 是否允许用户关闭公告
 	closable: true,
