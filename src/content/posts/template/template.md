@@ -8,7 +8,7 @@ image: "./template.webp"
 tags: ["模板"]
 category: 模板
 draft: false
-comment: true
+comment: false
 slug:
 password: "123456"
 passwordHint: "模板密码123456"
