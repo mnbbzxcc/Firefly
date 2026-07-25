@@ -6,9 +6,13 @@
 
 ::github{repo="mnbbzxcc/Firefly"}
 
-::github{repo="CuteLeaf/Firefly"}
+**特备致谢以下项目**
 
 ::github{repo="saicaca/fuwari"}
+
+::github{repo="CuteLeaf/Firefly"}
+
+::github{repo="twikoojs/twikoo"}
 
 ---
 
