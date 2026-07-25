@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "狂三三三呐",
 
 	// 个人签名
-	bio: "自娱自乐",
+	bio: "希望未来会好起来",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -39,11 +39,11 @@ export const profileConfig: ProfileConfig = {
 			url: "mailto:kuang-san@foxmail.com",
 			showName: false,
 		},
-		// {
-		// 	name: "RSS",
-		// 	icon: "fa7-solid:rss",
-		// 	url: "/rss/",
-		// 	showName: false,
-		// },
+		{
+			name: "RSS",
+			icon: "fa7-solid:rss",
+			url: "/rss/",
+			showName: false,
+		},
 	],
 };
