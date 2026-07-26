@@ -71,7 +71,7 @@ export const sponsorConfig: SponsorConfig = {
 		// 示例：匿名打赏者
 		{
 			name: "测试匿名用户",
-			// avatar: "",
+			avatar: "",
 			amount: "¥5",
 			date: "2026-07-22",
 		},
