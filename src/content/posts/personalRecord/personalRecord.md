@@ -26,7 +26,7 @@ passwordHint: ""
 > - [MongoDB Atlas云数据库](https://cloud.mongodb.com/)
 > - [Vercel云部署](https://vercel.com/)
 > - [WeAvatar头像服务](https://weavatar.com/)
-> - [AKidmet反垃圾](https://akismet.com/account/)
+> - [AKismet反垃圾](https://akismet.com/account/)
 
 - [x] 评论
 - [x] 表情
