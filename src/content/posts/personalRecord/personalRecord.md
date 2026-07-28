@@ -1,7 +1,7 @@
 ---
 title: 个人记录
 published: 2026-07-27
-update: 
+update:  2026-07-28
 pinned: false
 description: "网站配置的个人记录"
 image: ""
@@ -26,11 +26,15 @@ passwordHint: ""
 > - [MongoDB Atlas云数据库](https://cloud.mongodb.com/)
 > - [Vercel云部署](https://vercel.com/)
 > - [WeAvatar头像服务](https://weavatar.com/)
-> - [AKismet反垃圾](https://akismet.com/account/)
+> - [Akismet反垃圾](https://akismet.com/account/)
 
 - [x] 评论
-- [x] 表情
-- [x] markdown
-- [ ] 自定义表情配置
-- [x] 反垃圾配置
-- [ ] 邮件通知配置
+- [x] 评论带表情
+- [x] 增加表情cdn
+- [x] markdown支持
+- [x] 展示评论者系统和浏览器，不展示ip
+- [x] 反垃圾配置，Akismet，违禁词与屏蔽词测试失败
+- [x] 验证码：不使用
+- [x] 邮件通知：暂用qq邮箱，测试成功
+- [ ] 即时通知
+- [ ] 评论插入图片
