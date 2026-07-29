@@ -14,6 +14,8 @@
 
 ::github{repo="twikoojs/twikoo"}
 
+::github{repo="metowolf/meting"}
+
 ---
 
 *感谢来访，期待你的建议！*

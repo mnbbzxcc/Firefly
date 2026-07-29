@@ -18,7 +18,7 @@ export const galleryConfig: GalleryConfig = {
 		{
 			id: "20260723",
 			name: "看看图",
-			cover: "public/gallery/20260723/3.png",
+			cover: "/gallery/20260723/3.png",
 			description: "测试加密相册",
 			location: "鸣潮",
 			date: "2026-07-23",
