@@ -39,7 +39,7 @@ passwordHint: ""
 ### 番组列表配置
 > - [Bangumi收藏馆](https://bangumi.tv/)
 
-- [x] 番组列表
+- [x] 番组列表（仍在完善中……）
 
 ### 评论配置
 > - [Twikoo官方GitHub地址](https://github.com/twikoojs/twikoo)
