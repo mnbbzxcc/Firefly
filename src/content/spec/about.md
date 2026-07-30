@@ -6,7 +6,7 @@
 
 ::github{repo="mnbbzxcc/Firefly"}
 
-**特备致谢以下项目**
+**特别致谢以下项目**
 
 ::github{repo="saicaca/fuwari"}
 
