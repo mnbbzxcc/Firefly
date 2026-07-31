@@ -21,6 +21,7 @@ passwordHint: ""
 - [x] 网站域名：www.303009.xyz
 - [x] 主页背景图（随即图api）
 - [ ] 文章随机图（暂不开启）
+- [x] ip优选，域名：cdn.091224.xyz
 
 ### 动态配置
 > - [Memos开源笔记](https://github.com/usememos/memos)
